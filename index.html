@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="bmi.css">
+
+</head>
+
+<body>
+
+    <div class="imp">
+        <h1>BMI CALCULATOR</h1>
+        <p>A BMI (Body Mass Index) calculator is a valuable health assessment tool that measures an individual's body fat based on their weight and height. It serves as a screening tool to identify potential health risks related to weight, such as obesity or being underweight. Once you input your weight and height, the BMI calculator provides a numerical value that falls into different categories, such as underweight, normal weight, overweight, or obese. While it does not directly measure body fat, BMI remains a widely used and practical tool for quickly assessing weight-related health risks and determining potential areas for improvement.</p>
+        <img src="bmiimages.jpg" width="350" height="350">
+    </div>
+
+    <div><h3>
+        Enter Age: <input type="number" name="Age" placeholder="age" required>
+    </h3>
+    </div>
+
+<form>
+
+    <div><h3>Enter Height:<input id="height" type="number" name="Height" placeholder="height(in cm)" required></h3></div>
+
+    <div><h3>Enter Weight:<input id="weight" type="number" name="Weight" placeholder="Weight(in kg)" required></h3></div>
+
+    <button type="button" class="btn" onclick="calculate()">Calculate BMI</button>
+
+</form>
+
+<div id="results" class="text-center"><h5>Your BMI results will appear here</h5></div>
+
+<script src="bmi.js"></script>
+
+</body>
+
+</html>
