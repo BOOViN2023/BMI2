@@ -28,7 +28,7 @@ function calculate()
     {
         document.getElementById("results").innerHTML=error;
     }
-    else if(height<50 || height>220)
+    else if(height>220)
     {
         document.getElementById("results").innerHTML=error;
     }
